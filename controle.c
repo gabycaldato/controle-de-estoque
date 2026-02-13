@@ -60,6 +60,7 @@ char *lerString(){
     bool valido = true;
     
     do{
+        fflush(stdin);
         valido = true; 
         gets(nome);
         fflush(stdin);

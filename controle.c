@@ -120,8 +120,6 @@ void adicionarPro()
     printf("Nome: ");
     strcpy(produtos.nome, lerString());
 
-    printf("\n%s\n", produtos.nome);
-
     printf("Quantidade: ");
     produtos.quantidade = lerInteiro();
 
